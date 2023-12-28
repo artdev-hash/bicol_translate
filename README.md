@@ -66,3 +66,5 @@ git push origin -u <ticket-number>/your-name
 11. Create a pull request
 
 12. Submit pull request for review
+
+----
