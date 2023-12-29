@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import type { DefaultTheme } from 'vitepress/theme'
-import { useData } from '../composables/data.js'
-import { isActive } from '../support/utils.js'
+import { useData } from '../composables/data'
+import { isActive } from '../../shared'
 import VPLink from './VPLink.vue'
 
 defineProps<{
@@ -13,7 +13,7 @@ const { page } = useData()
 
 <template>
   <div class="VPMenuLink">
-    <VPLink 
+    <VPLink
       :class="{ active: isActive(page.relativePath, item.activeMatch || item.link, !!item.activeMatch) }"
       :href="item.link"
       :target="item.target"
@@ -44,11 +44,11 @@ const { page } = useData()
 }
 
 .link:hover {
-  color: var(--vp-c-brand);
-  background-color: var(--vp-c-bg-elv-mute);
+  color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-default-soft);
 }
 
 .link.active {
-  color: var(--vp-c-brand);
+  color: var(--vp-c-brand-1);
 }
 </style>

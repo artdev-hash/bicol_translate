@@ -1,24 +1,25 @@
 {
   "name": "Bicol Translate",
   "author": "artdev-hash <dev@lorenzokimarthur.com>",
+  "type": "module",
   "devDependencies": {
-      "fast-glob": "^3.2.12",
-      "feed": "^4.2.2",
-      "fs-extra": "^11.1.0",
-      "globby": "11.0.4",
-      "gray-matter": "^4.0.3",
-      "markdown-it": "^13.0.1",
-      "vitepress": "1.0.0-alpha.59"
+    "fast-glob": "^3.2.12",
+    "feed": "^4.2.2",
+    "fs-extra": "^11.1.0",
+    "globby": "11.0.4",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1"
   },
   "scripts": {
-      "Developer": "https://www.lorenzokimarthur.com/",
-      "deploy": "sh deploy.sh",
-      "dev": "vitepress dev ",
-      "build": "vitepress build ",
-      "serve": "vitepress serve "
-
+    "Developer": "https://www.lorenzokimarthur.com/",
+    "deploy": "sh deploy.sh",
+    "dev": "vitepress dev ",
+    "build": "vitepress build ",
+    "serve": "vitepress serve "
   },
   "dependencies": {
-      "dayjs": "^1.11.7"
+    "dayjs": "^1.11.7",
+    "vite": "^5.0.10",
+    "vitepress": "^1.0.0-rc.33"
   }
 }
