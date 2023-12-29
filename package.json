@@ -12,7 +12,7 @@
  
   },
   "scripts": {
-    "homepage": "/bicol_translate/",
+    "homepage": "https://artdev-hash.github.io/bicol_translate/",
     "deploy": "sh deploy.sh",
     "dev": "vitepress dev ",
     "build": "vitepress build ",

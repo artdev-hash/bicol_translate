@@ -6,6 +6,7 @@ import Work from "./components/Projie.vue";
 import "./custom.css";
 
 export default {
+  base:'/bicol_translate/',
   ...DefaultTheme,
   Layout: MyLayout,
   enhanceApp(ctx) {
