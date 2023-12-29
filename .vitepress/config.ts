@@ -8,6 +8,14 @@ async function config() {
     description: "How to say in Bicol",
     head: [
       [
+        "link",
+        {
+          rel: "icon",
+          type: "image/ico",
+          href: "kl.ico",
+        },
+      ],
+      [
         "meta",
         {
           name: "author",
@@ -33,6 +41,7 @@ async function config() {
     lastUpdated: false,
     themeConfig: {
       // repo: dev.kimlor/home",
+      logo: "kl.ico",
       search: {
         provider: "local",
       },
