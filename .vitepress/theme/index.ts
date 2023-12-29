@@ -16,5 +16,4 @@ export default {
     app.component("Dev", Dev);
     app.component("Work", Work);
   },
-  base: '/bicol_translate/'
 };

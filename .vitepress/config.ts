@@ -2,7 +2,7 @@ import { getPosts, getPostLength } from "./theme/serverUtils";
 
 async function config() {
   return {
-
+    base: '/bicol_translate/',
     lang: "en-US",
     title: "Bicol Translate",
     description: "How to say in Bicol",
