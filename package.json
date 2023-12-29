@@ -1,7 +1,7 @@
 {
   "name": "Bicol Translate",
   "author": "artdev-hash <dev@lorenzokimarthur.com>",
-  "base": "/bicol_translate/",
+
   "devDependencies": {
     "fast-glob": "^3.2.12",
     "feed": "^4.2.2",
@@ -13,7 +13,7 @@
  
   },
   "scripts": {
-    "homepage": "https://artdev-hash.github.io/bicol_translate/",
+    "base": "/bicol_translate/",
     "deploy": "sh deploy.sh",
     "dev": "vitepress dev ",
     "build": "vitepress build ",
