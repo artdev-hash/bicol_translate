@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "dayjs": "^1.11.7",
-    "vitepress": "1.0.0-alpha.59"
+    "vitepress": "^1.0.0-rc.33"
   }
 }
