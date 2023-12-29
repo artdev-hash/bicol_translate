@@ -12,6 +12,7 @@
  
   },
   "scripts": {
+    "homepage": "https://artdev-hash.github.io/bicol_translate/",
     "Developer": "https://www.lorenzokimarthur.com/",
     "deploy": "sh deploy.sh",
     "dev": "vitepress dev ",
