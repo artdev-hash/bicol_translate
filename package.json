@@ -1,6 +1,7 @@
 {
   "name": "Bicol Translate",
   "author": "artdev-hash <dev@lorenzokimarthur.com>",
+  "base": "/bicol_translate/",
   "devDependencies": {
     "fast-glob": "^3.2.12",
     "feed": "^4.2.2",
