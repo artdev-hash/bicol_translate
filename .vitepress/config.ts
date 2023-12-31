@@ -12,7 +12,7 @@ async function config() {
         {
           rel: "icon",
           type: "image/ico",
-          href: "kl.ico",
+          href: "bicoltrans.ico",
         },
       ],
       [
@@ -40,7 +40,8 @@ async function config() {
     // cleanUrls: "with-subfolders",
     lastUpdated: false,
     themeConfig: {
-      // repo: dev.kimlor/home",
+      // repo: bicol_translate/home",
+      logo: "bicoltrans.ico",
       search: {
         provider: "local",
       },
