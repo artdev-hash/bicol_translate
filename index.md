@@ -9,8 +9,8 @@ hero:
   tagline: Discover Bicol by Tagalog and English
   image:
     alt: Bicol Translate
-    light: /home/images/bicoltranslate.png
-    dark:  /home/images/bicoltranslate.png
+    light: /home/bicoltranslate.png
+    dark:  /home/bicoltranslate.png
 
   actions:
     - theme: brand
