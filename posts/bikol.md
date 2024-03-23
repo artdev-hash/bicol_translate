@@ -1,5 +1,5 @@
 ---
-title: List of Bicol Translations
+title: List of Bicol Translations 📌
 description: Bicol Translations
 date: 2023-06-23
 tags:
