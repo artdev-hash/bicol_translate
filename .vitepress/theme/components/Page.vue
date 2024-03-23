@@ -20,6 +20,7 @@
       Next page
     </button>
   </div>
+  <br><br>
 </template>
 <script lang="ts" setup>
 interface post {
